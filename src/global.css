@@ -1,0 +1,19 @@
+* {
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: rgb(19, 15, 32);
+    margin: 0%;
+    padding: 0 0 0 0;
+}
+
+div #id {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20%;
+    padding-top: 20%;
+    padding-right: 18%;
+    max-width: 300px;
+}
