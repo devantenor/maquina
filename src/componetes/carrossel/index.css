@@ -1,0 +1,50 @@
+.view-principal {
+    position: relative;
+    width: 120%;
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+    left: 250px;
+}
+
+.box-card {
+    background-color: white;
+    border-radius: 10px;
+    max-width: 250px ;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: auto;
+}
+
+.box-card img {
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 5px;
+
+}
+
+.box-card h3 {
+    color: gray;
+    font-size: 16px;
+    height: 20px;
+    max-width: 250px;
+    background-color: white;
+
+}
+.box-card span {
+    color:gray;
+    font-size: 12px;
+    height: 20px;
+    max-width: 250px;
+    background-color: white;
+}
+.box-card h2 {
+    color: gray;
+    font-size: 20px;
+    height: 20px;
+    max-width: 250px;
+    background-color: white;
+}

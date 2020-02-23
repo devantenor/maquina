@@ -1,0 +1,58 @@
+.carousel-inner{
+    max-height: 400px;
+    
+}
+#primeiro {
+    height: 250px;
+    width: auto;
+}
+#segundo {
+    max-height: 250px;
+    width: auto;
+}
+#terceiro {
+    max-height: 250px;
+    width: auto;
+}
+
+@media  (min-width: 600px ) {
+    #primeiro {
+        max-height: 450px;
+        width: auto;
+    }
+    #segundo {
+        max-height: 450px;
+        width: auto;
+    }
+    #terceiro {
+        max-height: 450px;
+        width: auto;
+    }
+    .carousel-inner { 
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;      
+        opacity: 0.5;
+    }
+}
+
+@media  (min-width: 1000px ) {
+    #primeiro {
+        max-height: 490px;
+        width: 400px;
+    }
+    #segundo {
+        max-height: 490px;
+        width: auto;
+    }
+    #terceiro {
+        max-height: 490px;
+        width: auto;
+    }
+    .carousel-inner { 
+        width: 70%;
+        margin-right: 15%;
+        margin-left: 15%;      
+        opacity: 0.5;
+    }
+}
