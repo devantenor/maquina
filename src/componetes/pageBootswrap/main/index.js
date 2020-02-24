@@ -17,10 +17,6 @@ function Main() {
                         <p>tamanho, cor etc</p>
                         <h2>preço R$</h2>
                      </esquerda>
-                <direita>
-                    <img src={carrinho} alt="carinho"></img>
-                    
-                </direita>
                 </aside>
                 <button>
                 <h3>adicionar ao carrinho</h3>
